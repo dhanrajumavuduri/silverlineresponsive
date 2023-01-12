@@ -1,0 +1,67 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  justify-content: row;
+  align-items: flex-end;
+  padding: 32px;
+  width: 1000px;
+}
+
+@media (max-width: 575px) {
+  .header-container {
+    padding: 0px;
+  }
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-items-list {
+  display: flex;
+  padding-left: 0px;
+}
+
+.link-item {
+  list-style-type: none;
+}
+
+.route-link {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+.dhanraju {
+  color: #ffffff;
+  padding-left: 0px;
+  margin-left: 30px;
+  font-weight: 500;
+}
+
+.dhanraju1 {
+  color: #ffffff;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.silverlineimage {
+  height: 60px;
+  width: 120px;
+}
